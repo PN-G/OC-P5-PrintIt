@@ -132,6 +132,11 @@ header {
 #banner .arrow_right {
 	right: 10px;
 }
+
+#banner .arrow_left:hover,
+#banner .arrow_right:hover {
+	cursor: pointer;
+}
 /* Gestion des points du carrousel */
 .dots {
 	position: absolute;
